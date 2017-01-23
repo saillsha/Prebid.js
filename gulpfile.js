@@ -31,7 +31,7 @@ var analyticsDirectory = '../analytics';
 var port = 9999;
 
 // Tasks
-gulp.task('default', ['clean', 'quality', 'webpack']);
+gulp.task('default', ['clean', 'quality', 'webpack', 'devpack']);
 
 gulp.task('serve', ['clean', 'quality', 'devpack', 'webpack', 'watch', 'test']);
 
